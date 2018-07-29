@@ -64,7 +64,7 @@
         "noImplicitAny": true,
 
         // Enable strict null checks.
-        "strictNullChecks": true,
+        // "strictNullChecks": true,
 
         // Enable strict checking of function types.
         // "strictFunctionTypes": true,
