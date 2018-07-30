@@ -13,6 +13,7 @@ type ExampleInstance = Sequelize.Instance<ExampleAttributes> & ExampleAttributes
 export default (sequelize: Sequelize.Sequelize) => {
 
     const attributes: SequelizeAttributes<ExampleAttributes> = {
+        id: { type: Sequelize.UUID, primaryKey: true, defaultValue: Sequelize.UUIDV4 },
         name: { type: Sequelize.STRING, allowNull: false }
     };
 
